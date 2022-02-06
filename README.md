@@ -4,8 +4,9 @@
 
 ### `npm clone`
 
-Open folder in terminal and run:
-    `npm install --save-dev`
+Open folder in terminal and run: 
+
+### `npm install --save-dev`
 
 ### `npm start`
 
