@@ -1,26 +1,26 @@
 import React from 'react';
-import {SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute} from './SidebarElements'
+import {SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute} from './SidebarElements';
 
-const Sidebar = () => {
+const Sidebar = ({isOpen, toggle}) => {
   return (
-    <SidebarContainer>
-        <Icon>
+    <SidebarContainer isOpen={isOpen} onClick={toggle}>
+        <Icon onClick={toggle}>
             <CloseIcon />
         </Icon>
         <SidebarWrapper>
             <SidebarMenu>
-                <SidebarLink to="about">
+                <SidebarLink to='about' onClick={toggle}>
                     About
                 </SidebarLink>
-                <SidebarLink to="stream">
+                <SidebarLink to='stream' onClick={toggle}>
                     Stream
                 </SidebarLink>
-                <SidebarLink to="merch">
+                <SidebarLink to='merch' onClick={toggle}>
                     Merch
                 </SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
-                <SidebarRoute to="inquiries">Inquiries</SidebarRoute>
+                <SidebarRoute to='inquiries' onClick={toggle}>Inquiries</SidebarRoute>
             </SideBtnWrap>
         </SidebarWrapper>
     </SidebarContainer>
@@ -28,4 +28,3 @@ const Sidebar = () => {
 };
 
 export default Sidebar;
-
