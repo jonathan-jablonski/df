@@ -3,9 +3,10 @@ import { Link as LinkR} from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
-    background: #000;
+    background: #070506;
     height: 80px;
     display: flex;
+    margin-top: -80px;
     justify-content: center;
     align-items: center;
     font-size: 1rem;

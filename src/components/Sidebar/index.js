@@ -12,11 +12,14 @@ const Sidebar = ({isOpen, toggle}) => {
                 <SidebarLink to='about' onClick={toggle}>
                     About
                 </SidebarLink>
-                <SidebarLink to='stream' onClick={toggle}>
-                    Stream
-                </SidebarLink>
                 <SidebarLink to='merch' onClick={toggle}>
                     Merch
+                </SidebarLink>
+                <SidebarLink to='showtimes' onClick={toggle}>
+                    Shows
+                </SidebarLink>
+                <SidebarLink to='stream' onClick={toggle}>
+                    Stream
                 </SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
