@@ -18,8 +18,8 @@ const Sidebar = ({isOpen, toggle}) => {
                 <SidebarLink to='showtimes' onClick={toggle}>
                     Shows
                 </SidebarLink>
-                <SidebarLink to='stream' onClick={toggle}>
-                    Stream
+                <SidebarLink to='credits' onClick={toggle}>
+                    Credits
                 </SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
