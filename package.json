@@ -1,5 +1,6 @@
 {
   "name": "df-react-app",
+  "homepage": "https://jonathan-jablonski.github.io/df/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
