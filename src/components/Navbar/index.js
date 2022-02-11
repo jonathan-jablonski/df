@@ -1,6 +1,6 @@
 import React from 'react';
 import {FaBars} from 'react-icons/fa';
-import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavbarElements';
+import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink, ExNavLink} from './NavbarElements';
 
 const Navbar = ({toggle}) => {
   return(
@@ -16,10 +16,16 @@ const Navbar = ({toggle}) => {
                         <NavLinks to='about'>About</NavLinks>
                     </NavItem>
                     <NavItem>
-                        <NavLinks to='merch'>Merch</NavLinks>
+                        <ExNavLink
+                            href='https://dual-funeral-merch-shop.creator-spring.com/' target='_blank' rel="noreferrer" aria-label='Merch external link'>
+                            Merch
+                        </ExNavLink>
                     </NavItem>
                     <NavItem>
                         <NavLinks to='showtimes'>Shows</NavLinks>
+                    </NavItem>
+                    <NavItem>
+                        <NavLinks to='credits'>Credits</NavLinks>
                     </NavItem>
                 </NavMenu>
                 <NavBtn>

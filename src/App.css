@@ -18,3 +18,7 @@ font-family: 'Russo One', sans-serif;
 font-family: 'Yellowtail', cursive; 
 
 */
+
+a {
+  text-decoration: none;
+}

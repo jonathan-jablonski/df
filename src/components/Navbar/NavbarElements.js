@@ -114,3 +114,16 @@ export const NavBtnLink = styled(LinkR)`
         color: #0d0d0d;
     }
 `
+
+export const ExNavLink = styled.a`
+    color:#7BF1A8;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    cursor: pointer;
+    &.active {
+        border-bottom: 3px solid #C1FBA4;
+    }
+`
